@@ -28,7 +28,7 @@ Gem::Specification.new do |gem|
 Pathname for the user-choices command-line argument parser allows choices to be
 automatically converted to Pathname objects.
   DESCRIPTION
-  gem.summary       = "Pathname type for choices in user-choices"
+  gem.summary       = "Pathname type for choices in user-choices."
   gem.homepage      = "https://www.godobject.net/"
   gem.license       = "ISC"
   gem.has_rdoc      = "yard"
