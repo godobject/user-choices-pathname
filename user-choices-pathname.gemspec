@@ -30,9 +30,9 @@ automatically converted to Pathname objects.
   DESCRIPTION
   gem.summary       = "Pathname type for choices in user-choices"
   gem.homepage      = "https://www.godobject.net/"
-  gem.license       = 'ISC'
-  gem.has_rdoc      = 'yard'
-  gem.extra_rdoc_files  = ['HISTORY.md', 'LICENSE.md']
+  gem.license       = "ISC"
+  gem.has_rdoc      = "yard"
+  gem.extra_rdoc_files  = ["HISTORY.md", "LICENSE.md"]
   gem.rubyforge_project = nil
 
   gem.files         = `git ls-files`.split($/)

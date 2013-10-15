@@ -2,10 +2,10 @@ Pathname for user-choices
 =========================
 
 [![Gem Version](https://badge.fury.io/rb/user-choices-pathname.png)](http://badge.fury.io/rb/user-choices-pathname)
-[![Build Status](https://secure.travis-ci.org/godobject/user-choices-pathname-ruby.png)](http://travis-ci.org/godobject/user-choices-pathname-ruby)
-[![Dependency Status](https://gemnasium.com/godobject/user-choices-pathname-ruby.png)](https://gemnasium.com/godobject/user-choices-pathname-ruby)
-[![Code Climate](https://codeclimate.com/github/godobject/user-choices-pathname-ruby.png)](https://codeclimate.com/github/godobject/user-choices-pathname-ruby)
-[![Coverage Status](https://coveralls.io/repos/godobject/user-choices-pathname-ruby/badge.png?branch=master)](https://coveralls.io/r/godobject/user-choices-pathname-ruby)
+[![Build Status](https://secure.travis-ci.org/godobject/user-choices-pathname.png)](https://travis-ci.org/godobject/user-choices-pathname)
+[![Dependency Status](https://gemnasium.com/godobject/user-choices-pathname.png)](https://gemnasium.com/godobject/user-choices-pathname)
+[![Code Climate](https://codeclimate.com/github/godobject/user-choices-pathname.png)](https://codeclimate.com/github/godobject/user-choices-pathname)
+[![Coverage Status](https://coveralls.io/repos/godobject/user-choices-pathname/badge.png?branch=master)](https://coveralls.io/r/godobject/user-choices-pathname)
 
 * [Documentation][docs]
 * [Project][project]
@@ -41,6 +41,7 @@ Additional facts:
 * Automatically testable through RSpec.
 * Intended to be used with Ruby 1.9.3 or higher.
 * Cryptographically signed gem and git tags.
+* This library was developed as part of the Spaces project.
 
 Synopsis
 --------
