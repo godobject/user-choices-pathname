@@ -1,15 +1,17 @@
 Pathname for user-choices
 =========================
 
-[![Build Status](https://secure.travis-ci.org/god_object/user-choices-pathname.png)](
-https://secure.travis-ci.org/god_object/user-choices-pathname)
-[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/godobject/user-choices-pathname)
+[![Gem Version](https://badge.fury.io/rb/user-choices-pathname.png)](http://badge.fury.io/rb/user-choices-pathname)
+[![Build Status](https://secure.travis-ci.org/godobject/user-choices-pathname-ruby.png)](http://travis-ci.org/godobject/user-choices-pathname-ruby)
+[![Dependency Status](https://gemnasium.com/godobject/user-choices-pathname-ruby.png)](https://gemnasium.com/godobject/user-choices-pathname-ruby)
+[![Code Climate](https://codeclimate.com/github/godobject/user-choices-pathname-ruby.png)](https://codeclimate.com/github/godobject/user-choices-pathname-ruby)
+[![Coverage Status](https://coveralls.io/repos/godobject/user-choices-pathname-ruby/badge.png?branch=master)](https://coveralls.io/r/godobject/user-choices-pathname-ruby)
 
 * [Documentation][docs]
 * [Project][project]
 
-   [docs]:    http://rdoc.info/github/god_object/user-choices-pathname/
-   [project]: https://github.com/god_object/user-choices-pathname/
+   [docs]:    http://rdoc.info/github/godobject/user-choices-pathname/
+   [project]: https://github.com/godobject/user-choices-pathname/
 
 Description
 -----------
@@ -36,7 +38,8 @@ Additional facts:
 
 * Written purely in Ruby.
 * Documented with YARD.
-* Intended to be used with Ruby 1.8.7 or higher.
+* Automatically testable through RSpec.
+* Intended to be used with Ruby 1.9.3 or higher.
 * Cryptographically signed gem and git tags.
 
 Synopsis
@@ -45,9 +48,6 @@ Synopsis
 This documentation defines the public interface of the software. Don't rely
 on elements marked as private. Those should be hidden in the documentation
 by default.
-
-This is still experimental software, even the public interface may change
-substantially in future releases.
 
 ### Loading
 
@@ -93,7 +93,7 @@ The conversion is also able to convert argument lists to Arrays of Pathnames.
 Requirements
 ------------
 
-* Ruby 1.8.7 or higher
+* Ruby 1.9.3 or higher
 
 Installation
 ------------
@@ -112,7 +112,7 @@ Add the key to your rubygems' trusted certificates by the following command:
 
     gem cert --add aef-gem.pem
 
-Now you can install the gem while automatically verifying it's signature by the
+Now you can install the gem while automatically verifying its signature by the
 following command:
 
     gem install user-choices-pathname -P HighSecurity
@@ -147,31 +147,37 @@ Development
 Please use the [issue tracker][issues] on github.com to let me know about errors
 or ideas for improvement of this software.
 
-   [issues]: https://github.com/god_object/user-choices-pathname/issues/
+   [issues]: https://github.com/godobject/user-choices-pathname/issues/
 
 ### Source code
+
+#### Distribution
 
 This software is developed in the source code management system Git. There are
 several synchronized mirror repositories available:
 
-* GitHub
+* GitHub (located in California, USA)
     
     URL: https://github.com/godobject/user-choices-pathname.git
 
-* Gitorious
+* Gitorious (located in Norway)
     
     URL: https://git.gitorious.org/user-choices-pathname/user-choices-pathname.git
 
-* BitBucket
+* BitBucket (located in Colorado, USA)
     
     URL: https://bitbucket.org/godobject/user-choices-pathname.git
+
+* Pikacode (located in France)
+
+    URL: https://pikacode.com/godobject/user-choices-pathname.git
 
 You can get the latest source code with the following command, while
 exchanging the placeholder for one of the mirror URLs:
 
     git clone MIRROR_URL
 
-#### Tags
+#### Tags and cryptographic verification
 
 The final commit before each released gem version will be marked by a tag
 named like the version with a prefixed lower-case "v", as required by Semantic
@@ -188,16 +194,26 @@ This command will tell you if your code is of integrity and authentic:
 
     git tag -v [TAG NAME]
 
+#### Building gems
+
+To package your state of the source code into a gem package use the following
+command:
+
+    rake build
+
+The gem will be generated according to the .gemspec file in the project root
+directory and will be placed into the pkg/ directory.
+
 ### Contribution
 
 Help on making this software better is always very appreciated. If you want
-your changes to be included in the official release, please clone my project
-on github.com, create a named branch to commit and push your changes into and
-send me a pull request afterwards.
+your changes to be included in the official release, please clone the project
+on github.com, create a named branch to commit, push your changes into it and
+send a pull request afterwards.
 
-Please make sure to write tests for your changes so that I won't break them
-when changing other things on the library. Also notice that I can't promise
-to include your changes before reviewing them.
+Please make sure to write tests for your changes so that no one else will break
+them when changing other things. Also notice that an inclusion of your changes
+cannot be guaranteed before reviewing them.
 
 The following people were involved in development:
 

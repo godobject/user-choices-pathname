@@ -40,7 +40,7 @@ automatically converted to Pathname objects.
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.required_ruby_version = '>= 1.8.7'
+  gem.required_ruby_version = '>= 1.9.3'
 
   gem.add_development_dependency('rspec', '2.14.1')
   gem.add_development_dependency('pry')
