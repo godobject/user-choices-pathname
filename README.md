@@ -1,7 +1,7 @@
 Pathname for user-choices
 =========================
 
-[![Gem Version](https://badge.fury.io/rb/user-choices-pathname.png)](http://badge.fury.io/rb/user-choices-pathname)
+[![Gem Version](https://badge.fury.io/rb/user-choices-pathname.png)](https://badge.fury.io/rb/user-choices-pathname)
 [![Build Status](https://secure.travis-ci.org/godobject/user-choices-pathname.png)](https://travis-ci.org/godobject/user-choices-pathname)
 [![Dependency Status](https://gemnasium.com/godobject/user-choices-pathname.png)](https://gemnasium.com/godobject/user-choices-pathname)
 [![Code Climate](https://codeclimate.com/github/godobject/user-choices-pathname.png)](https://codeclimate.com/github/godobject/user-choices-pathname)
@@ -95,6 +95,7 @@ Requirements
 ------------
 
 * Ruby 1.9.3 or higher
+* [user-choices](https://rubygems.org/gems/user-choices)
 
 Installation
 ------------
